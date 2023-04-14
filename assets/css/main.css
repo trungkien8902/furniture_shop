@@ -19,7 +19,6 @@ a {
 .container {
     width: 1494px;
     margin: auto;
-
 }
 
 header {
@@ -27,6 +26,10 @@ header {
     background: #fff;
     position: fixed;
     z-index: 50;
+}
+
+section {
+    padding: 0 10%;
 }
 
 /*-------------------------*/
@@ -135,6 +138,44 @@ footer p, a {
 #home-category .slide-category .slider-image h5 {
     padding: 10px;
 }
+
+#home-about {
+    position: relative;
+    height: 1280px;
+    background-image: url(/img/about.png);
+    background-repeat: no-repeat;
+    background-size: conver;
+    color: #fff;
+}
+
+#home-about .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#home-about .content {
+    padding: 0 10%;
+}
+
+#home-about img {
+    height: 100%;
+    display: block;
+}
+
+#home-about ul {
+    padding: 0;
+}
+
+#home-about h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 
 
 /* ------------- */
